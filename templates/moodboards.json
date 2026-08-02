@@ -1,0 +1,16 @@
+{
+  "primary": {
+    "id": "primary-direction",
+    "name": "[Direction Name]",
+    "blend": "[e.g. 70% A, 20% B, 10% C]",
+    "refs": [],
+    "why": "[Why this matches soul.md]"
+  },
+  "accent": {
+    "id": "accent-direction",
+    "name": "[Accent Name]",
+    "refs": [],
+    "why": "[Where accent is allowed]"
+  },
+  "rejected": []
+}

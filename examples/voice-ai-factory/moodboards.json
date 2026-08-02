@@ -1,0 +1,26 @@
+{
+  "primary": {
+    "id": "ai-factory-primary",
+    "name": "Paper Blueprint Factory",
+    "blend": "70% light paper-blueprint, 20% voice assistant command center, 10% dark production HUD",
+    "refs": [
+      "pinterest-light-infrastructure.png",
+      "shared-blue-voice-assistant.png"
+    ],
+    "why": "Matches listen-first + modular assembly with calm premium paper energy"
+  },
+  "accent": {
+    "id": "ai-factory-production-accent",
+    "name": "Production Readiness Accent",
+    "refs": [
+      "pinterest-factory-monitor.png"
+    ],
+    "why": "Darker status/risk panels only during testing / readiness"
+  },
+  "rejected": [
+    {
+      "file": "neon-robot-mascot.png",
+      "why": "Cartoon AI hype — conflicts with credible production positioning"
+    }
+  ]
+}

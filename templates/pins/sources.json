@@ -1,0 +1,10 @@
+[
+  {
+    "file": "example-pin.png",
+    "query": "search query used",
+    "sourceType": "pinterest-pin",
+    "pinUrl": "https://www.pinterest.com/pin/...",
+    "title": "Pin title",
+    "reason": "Why it fits soul.md"
+  }
+]

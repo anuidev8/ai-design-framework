@@ -1,0 +1,51 @@
+{
+  "product": "Voice-First AI Factory",
+  "lockedDirection": "Sketch to Color",
+  "states": [
+    {
+      "id": "idle",
+      "label": "Idle",
+      "ui": ["centered waveform", "blank sketch map", "scenario cards"],
+      "next": ["listening"]
+    },
+    {
+      "id": "listening",
+      "label": "Intake",
+      "ui": ["animated waveform", "transcript", "learned facts"],
+      "next": ["blueprint"]
+    },
+    {
+      "id": "blueprint",
+      "label": "Blueprint",
+      "ui": ["soft blue path lines", "workflow nodes", "waveform shifts aside"],
+      "next": ["assembly"]
+    },
+    {
+      "id": "assembly",
+      "label": "Assembly",
+      "ui": ["orange modular blocks", "integrations snap in"],
+      "next": ["testing"]
+    },
+    {
+      "id": "testing",
+      "label": "Testing",
+      "ui": ["readiness score", "risk radar", "green status"],
+      "next": ["ready"]
+    },
+    {
+      "id": "ready",
+      "label": "Launch",
+      "ui": ["sprint plan", "centered waveform", "Calendly CTA"],
+      "next": []
+    }
+  ],
+  "cta": {
+    "label": "Book a Production Readiness Call",
+    "url": "https://calendly.com/your-company/ai-production-readiness"
+  },
+  "rules": [
+    "Do not show a service list before intake",
+    "Waveform remains present across all states",
+    "Scroll only for optional showroom after the main experience"
+  ]
+}
