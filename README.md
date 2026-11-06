@@ -40,7 +40,7 @@ brief: landing page for a breathing app — calm, premium
 links: https://pin.it/abc123 https://www.pinterest.com/pin/987654/ ...
 ```
 
-The agent downloads the pins, rates them and keeps the **top 5** (you confirm), builds a **mood board**, writes a **design proposal** — colors, type, motion meanings, interaction concepts (you approve) — builds a **working HTML preview** you try in the browser (you approve), and only then **implements the UI with animations** in your app. Every step opens as a page at `localhost:4600`.
+The agent downloads the pins, rates them and keeps the **top 5** (you confirm), builds a **mood board**, writes a **design proposal** — colors, type, motion meanings, interaction concepts — builds a **working HTML preview** you try in the browser (you approve), and only then **implements the UI with animations** in your app. Every step opens as a page at `localhost:4600`.
 
 Want every agent to work this way for any UI task? `./install.sh --rules` adds a global *visual-first* rule to Antigravity, Claude Code and Codex. Guide: [docs/09-pinterest-links-mode.md](docs/09-pinterest-links-mode.md)
 
