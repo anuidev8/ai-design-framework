@@ -40,7 +40,9 @@ brief: landing page for a breathing app — calm, premium
 links: https://pin.it/abc123 https://www.pinterest.com/pin/987654/ ...
 ```
 
-The agent downloads the pins, rates them and keeps the **top 5** (you confirm), builds a **mood board**, writes a **design proposal** — colors, type, motion meanings, interaction concepts (you approve) — then generates **design tokens** and **implements the UI with animations**. Guide: [docs/09-pinterest-links-mode.md](docs/09-pinterest-links-mode.md)
+The agent downloads the pins, rates them and keeps the **top 5** (you confirm), builds a **mood board**, writes a **design proposal** — colors, type, motion meanings, interaction concepts (you approve) — builds a **working HTML preview** you try in the browser (you approve), and only then **implements the UI with animations** in your app. Every step opens as a page at `localhost:4600`.
+
+Want every agent to work this way for any UI task? `./install.sh --rules` adds a global *visual-first* rule to Antigravity, Claude Code and Codex. Guide: [docs/09-pinterest-links-mode.md](docs/09-pinterest-links-mode.md)
 
 ## Quick start — manual
 
@@ -89,7 +91,8 @@ ai-design-framework/
 ├── examples/              # Worked example (Voice AI Factory)
 ├── skills/
 │   └── ai-design-framework/   # The v2 skill: SKILL.md, scripts/, references/, templates/, stacks/
-└── install.sh             # Installs the skill (global or per project)
+├── rules/visual-first.md  # Global "show an HTML preview before building" rule
+└── install.sh             # Installs the skill (+ --rules) globally or per project
 ```
 
 ---
