@@ -43,7 +43,8 @@ Cluster references into **2–3 directions**. Score each against soul. Discard w
 
 Output: `moodboards.json` + short notes.
 
-Guide: [05-moodboards.md](05-moodboards.md)
+Guide: [05-moodboards.md](05-moodboards.md)  
+Rating rubric (v2): [`skills/ai-design-framework/references/rating-rubric.md`](../skills/ai-design-framework/references/rating-rubric.md)
 
 **Done when:** you can name a primary direction without averaging everything together.
 

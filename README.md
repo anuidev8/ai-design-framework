@@ -25,7 +25,24 @@ You spend less time fighting tools and more time choosing taste, story, and inte
 
 ---
 
-## Quick start
+## Quick start — Pinterest links → built UI (v2 skill)
+
+```bash
+git clone https://github.com/anuidev8/ai-design-framework && cd ai-design-framework
+./install.sh            # installs the skill in Antigravity, Claude Code, Codex, Cursor (whichever you have)
+```
+
+Then in your app's repo:
+
+```
+/ai-design-framework
+brief: landing page for a breathing app — calm, premium
+links: https://pin.it/abc123 https://www.pinterest.com/pin/987654/ ...
+```
+
+The agent downloads the pins, rates them and keeps the **top 5** (you confirm), builds a **mood board**, writes a **design proposal** — colors, type, motion meanings, interaction concepts (you approve) — then generates **design tokens** and **implements the UI with animations**. Guide: [docs/09-pinterest-links-mode.md](docs/09-pinterest-links-mode.md)
+
+## Quick start — manual
 
 ```bash
 # 1. Copy templates into your product repo
@@ -70,7 +87,9 @@ ai-design-framework/
 ├── templates/             # Empty starter files for any product
 ├── prompts/               # Copy-paste agent prompts
 ├── examples/              # Worked example (Voice AI Factory)
-└── skills/                # Cursor/Codex skill stub
+├── skills/
+│   └── ai-design-framework/   # The v2 skill: SKILL.md, scripts/, references/, templates/, stacks/
+└── install.sh             # Installs the skill (global or per project)
 ```
 
 ---

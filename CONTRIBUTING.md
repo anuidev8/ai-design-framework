@@ -22,3 +22,12 @@ Thanks for improving the AI Design Framework.
 - [ ] Example is runnable as a mental model (even without code)
 - [ ] No `.env`, keys, or private URLs
 - [ ] License/attribution notes updated if you add new assets
+
+## Keeping the skill in sync
+
+`skills/ai-design-framework/` must work on its own once copied into a tool's skills folder, so it carries its own copies of:
+
+- `templates/soul.md`, `templates/specs/feature-specs.json`
+- `prompts/master-orchestrator.md`, `prompts/one-shot-variants.md` (as `references/`)
+
+If you edit those root files, copy them into the skill folder in the same PR.

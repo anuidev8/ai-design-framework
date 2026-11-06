@@ -26,12 +26,19 @@ Scale: `[4, 8, 12, 16, 24, 32, 48, 64]` (edit as needed)
 - Radius:
 - Border style:
 
-## Motion
-| Verb | Feel | Notes |
-|------|------|-------|
-| Enter | | |
-| Stage shift | | |
-| Snap / assemble | | |
+## Motion meanings
+Every motion says something to the user. No meaning → no motion.
+
+| Motion | Meaning | Trigger | What moves | Duration | Easing | Reduced motion |
+|--------|---------|---------|------------|----------|--------|----------------|
+| Enter | | | | | | |
+| Stage shift | | | | | | |
+| Snap / assemble | | | | | | |
+
+## Interaction concepts
+| Name | Trigger | Feedback | End state |
+|------|---------|----------|-----------|
+| | | | |
 
 ## Components
 - [ ]

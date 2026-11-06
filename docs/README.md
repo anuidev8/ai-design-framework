@@ -8,5 +8,6 @@
 6. [Design system](06-design-system.md)
 7. [One-shot variants](07-one-shot-variants.md)
 8. [Implementation](08-implementation.md)
+9. [Pinterest links mode — the v2 skill](09-pinterest-links-mode.md)
 
 Publishing: [../PUBLISHING.md](../PUBLISHING.md)
